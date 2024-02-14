@@ -3,7 +3,7 @@ pipeline {
     tools {nodejs "nodejs"}
     environment {
         DOCKER_IMAGE_NAME = 'calculator'
-        GITHUB_REPO_URL = 'https://github.com/sejal183/calculatorOps.git'
+        GITHUB_REPO_URL = 'https://github.com/sejal183/calculator__spe.git'
         DOCKERHUB_CREDENTIALS = credentials('DockerHubCred')
     }
 
